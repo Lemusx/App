@@ -6,7 +6,7 @@ import { assert } from 'chai';
 
 import { Tasks } from './tasks.js';
 
-if (Meteor.isServer) {
+/*if (Meteor.isServer) {
   describe('Tasks', () => {
     describe('methods', () => {
       const userId = Random.id();
@@ -20,7 +20,7 @@ if (Meteor.isServer) {
           owner: userId,
           username: 'tmeasday',
         });
-      });
+      });*/
 
       it('can delete owned task', () => {
         // Find the internal implementation of the task method so we can
